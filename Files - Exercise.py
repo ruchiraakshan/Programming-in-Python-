@@ -1,4 +1,4 @@
-# Read the first two lines from file1.txt------
+# Read the first two lines from file1.txt------#####
 with open("file1.txt", "r") as f1:
     line1 = f1.readline()
     line2 = f1.readline()
@@ -10,4 +10,5 @@ with open("file2.txt", "w") as f2:
 with open("file2.txt", "r") as f2:
     contents = f2.read()
     print(contents)
+
 
